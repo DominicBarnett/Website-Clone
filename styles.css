@@ -1,0 +1,87 @@
+body{
+    background-color: #000000;
+}
+/* #form-container{
+    width: 696px;
+    height: 414px;
+} */
+img{
+    width: 167px;
+    height: 45px;
+}
+
+#form-container {
+    width: 100vh;
+    height: 100vh;
+    
+}
+footer{
+    width: auto;
+    background-color: #000000;
+}
+input{
+    padding: .5em;
+    margin: .5em;
+}
+
+@media (min-width: 740px) {
+    #form-container {
+        width: 696px;
+        height: 414px;
+        background-color: #000000;
+        
+    }
+    body{
+         background-image: url("./images/netflixBackground.jpeg");
+    }
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    background-color:#000000;
+    color: gray;
+}
+a{
+    color: gray;
+}
+/* Styles for the footer */
+.netflix-footer {
+    background-color: #141414;
+    color: #757575;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles for the footer links */
+.netflix-footer a {
+    color: #757575;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style for the FAQ list */
+.netflix-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Add hover effect for links */
+.netflix-footer a:hover {
+    color: #fff;
+}
+
+/* Additional styles to push content above the footer */
+.content {
+    min-height: calc(100vh - 100px); /* 100px is the total height of the footer */
+    position: relative;
+}
